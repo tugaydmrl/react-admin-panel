@@ -1,0 +1,14 @@
+.home {
+  flex: 4;
+}
+
+.homeWidgets {
+  display: flex;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 1680px) {
+  .home {
+    flex: 6;
+  }
+}
